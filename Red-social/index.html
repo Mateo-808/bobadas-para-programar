@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Red Social</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #f0f2f5;
+            color: #1c1e21;
+        }
+        .header {
+            background-color: #ffffff;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #1877f2;
+        }
+        .post {
+            background-color: #ffffff;
+            margin: 15px 0;
+            border-radius: 8px;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+            padding: 15px;
+        }
+        .post-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        .avatar {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        .post-content img {
+            max-width: 100%;
+            border-radius: 8px;
+            margin: 10px 0;
+        }
+        .post-actions {
+            display: flex;
+            justify-content: space-around;
+            border-top: 1px solid #e5e5e5;
+            padding-top: 10px;
+        }
+        .action-button {
+            background: none;
+            border: none;
+            color: #65676b;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        .action-button:hover {
+            background-color: #f0f2f5;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">MiRedSocial</div>
+        <div>
+            <button class="action-button">Perfil</button>
+            <button class="action-button">Amigos</button>
+        </div>
+    </div>
+
+    <div class="post">
+        <div class="post-header">
+            <img src="https://via.placeholder.com/50" alt="Avatar" class="avatar">
+            <div>
+                <strong>María Rodríguez</strong>
+                <div style="color: #65676b; font-size: 0.8em;">Hace 2 horas</div>
+            </div>
+        </div>
+        <div class="post-content">
+            <p>¡Qué hermoso día para salir a caminar! 🌞</p>
+            <img src="https://via.placeholder.com/500x300" alt="Paisaje">
+        </div>
+        <div class="post-actions">
+            <button class="action-button">👍 Me gusta</button>
+            <button class="action-button">💬 Comentar</button>
+            <button class="action-button">↩️ Compartir</button>
+        </div>
+    </div>
+
+    <div class="post">
+        <div class="post-header">
+            <img src="https://via.placeholder.com/50" alt="Avatar" class="avatar">
+            <div>
+                <strong>Carlos Mendez</strong>
+                <div style="color: #65676b; font-size: 0.8em;">Hace 5 horas</div>
+            </div>
+        </div>
+        <div class="post-content">
+            <p>Nuevo proyecto de programación en marcha. ¡Muy emocionado! 💻</p>
+        </div>
+        <div class="post-actions">
+            <button class="action-button">👍 Me gusta</button>
+            <button class="action-button">💬 Comentar</button>
+            <button class="action-button">↩️ Compartir</button>
+        </div>
+    </div>
+</body>
+</html>
